@@ -203,7 +203,7 @@ h2 {
 
 .service-type div {
 	width: 46%;
-	height: 250px;
+	height: auto;
 	margin: 2%;
 	padding: 1%;
 	border: 1px solid black;
@@ -272,4 +272,6 @@ ul {
 .services-info-img {
 	padding: 20px;
 	margin: 2%;
+	width: 50%;
+	height: auto;
 }
