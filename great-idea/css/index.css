@@ -64,3 +64,212 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.top-content {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	
+}
+
+nav a { 
+	display: flex;
+	text-decoration: none;
+	color: gray;
+	
+}
+
+header { 
+	display: flex;
+	justify-content: space-evenly;
+}
+
+header div {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+h1 {
+	font-size: 72px;
+	padding: 2%;
+	margin: 5%;
+	display: flex;
+	text-align: center;
+}
+
+#clicker{
+	border: 2px solid grey;
+	text-align: center;
+	color: black;
+	padding: 2%;
+	font-size: 14px;
+	
+}
+
+.circle-img {
+	display: flex;
+	padding: 3%;
+}
+
+.middle {
+	width: 95%;
+	display: flex;
+	border-top: 1px solid black;
+}
+
+.middle div {
+	width: 49%;
+	padding: 1%;
+}
+
+.middle-img {
+	width: 95%;
+	height: 70%;
+	margin: 1%;
+	display: flex;
+}
+
+.bottom {
+	display: flex;
+	border-bottom: 1px solid black;
+}
+
+.bottom .bottom-section {
+	width: 33%;
+	padding: 1%;
+}
+
+.contact {
+	padding: 2%;
+	width: 85%;
+}
+
+.contact h3 {
+	padding: 0%;
+	margin: 0 0 10px 0;
+}
+
+.contact address {
+	line-height: 2;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 5%;
+
+}
+
+
+									/* Service Page CSS Below */
+
+.services-header-img {
+	max-width: 100%;
+	height: auto;
+	padding: 30px;
+
+}
+
+.services {
+	display: flex;
+	border-bottom: 1px solid black;
+	padding: 2%;
+	align-content: flex-start;
+
+}
+
+h2 {
+	font-size: 20px; 
+}
+
+
+.service-type {
+	margin: 25px 0; 
+	display: flex;
+	justify-content: space-evenly;
+	flex-flow: row wrap;
+	padding: 5px;
+	
+}
+
+.service-type div {
+	width: 46%;
+	height: 250px;
+	margin: 2%;
+	padding: 1%;
+	border: 1px solid black;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+	background-color: #F0F0F0;
+	align-content: flex-start;
+	justify-content: space-around;
+
+}
+
+.service-type div h3 {
+	margin: 5px;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.service-type div p {
+	margin: 5px;
+	padding: 5px;
+} 
+
+.button {
+	margin: 5px;
+	padding: 10px;
+	width: 150px;
+	background-color: #F8F8F8;
+	border-radius: 5px;
+	
+}
+
+.service-facts {
+	display: flex;
+	border-top: 2px solid black;
+
+}
+
+.service-facts div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 20px;
+	margin: 5px;
+
+}
+
+.service-facts div h3 {
+	margin: 5px;
+	font-size: 20px;
+}
+
+.service-facts div p {
+	margin: 5px;
+	padding: 5px;
+} 
+
+
+ul {
+	list-style-type: circle;
+	list-style-position: inside;
+	padding: 5px;
+	line-height: 25px;
+}
+
+.services-info-img {
+	padding: 20px;
+	margin: 2%;
+}
